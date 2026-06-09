@@ -1,0 +1,18 @@
+{
+  "name": "upsc-pdf-converter-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that converts UPSC test PDFs to formatted TXT (ForumIAS SFG, Vajiram, VisionIAS)",
+  "private": true,
+  "scripts": {
+    "dev": "node start.js",
+    "deploy": "vercel --prod",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pdfjs-dist": "^3.11.174"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
