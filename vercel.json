@@ -5,7 +5,8 @@
       "src": "api/webhook.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "50mb"
+        "maxLambdaSize": "50mb",
+        "maxDuration": 120
       }
     }
   ],
@@ -18,11 +19,5 @@
       "src": "/",
       "dest": "api/webhook.py"
     }
-  ],
-  "functions": {
-    "api/webhook.py": {
-      "maxDuration": 120,
-      "memory": 1024
-    }
-  }
+  ]
 }
