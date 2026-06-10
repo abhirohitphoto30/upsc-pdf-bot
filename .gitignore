@@ -1,5 +1,13 @@
 .env
-node_modules
-.vercel
-.arena
-.cache
+__pycache__/
+*.pyc
+*.pyo
+.vercel/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.log
+/tmp/
